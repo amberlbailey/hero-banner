@@ -13,7 +13,6 @@ body {
 
 .banner {
   position: relative;
-  font-size: 1.5rem;
   max-height: 500px;
   overflow: hidden;
   width: 100%;
@@ -26,24 +25,29 @@ body {
 
 .banner-content {
   position: absolute;
-  top: 2em;
+  padding: 0 1em;
   text-align: left;
   width: 100%;
+  bottom: 20px;
 }
 
 p {
   position: absolute;
   font-style: italic;
   transform: translateX(-50%);
-  width: 600px;
-  left: 40%;
+  width: 660px;
+  left: 48%;
+  font-size: 2rem;
+  bottom: .5em;
 }
 
 title {
   position: absolute;
   transform: translateX(-50%);
-  width: 600px;
-  left: 40%;
+  width: 650px;
+  left: 48%;
+  bottom: 4em;
+  margin-bottom: 30px;
 }
 
 h2 {

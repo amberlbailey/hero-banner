@@ -1,0 +1,31 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.banner {
+  position: relative;
+  font-size: 1.5rem;
+  max-height: 50vh;
+  overflow: hidden;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.banner-content {
+  position: absolute;
+  bottom: 2em;
+  text-align: center;
+  width: 100%;
+}
+
+.banner-content h1,
+.banner-content p {
+  margin: 0;
+}

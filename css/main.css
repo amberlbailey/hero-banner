@@ -30,7 +30,10 @@ body {
   width: 100%;
 }
 
-.banner-content h1,
-.banner-content p {
-  margin: 0;
+p {
+  position: absolute;
+  font-style: italic;
+  transform: translateX(-50%);
+  width: 600px;
+  left: 40%;
 }

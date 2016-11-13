@@ -26,7 +26,6 @@ body {
 .banner-content {
   position: absolute;
   padding: 0 1em;
-  text-align: left;
   width: 100%;
   bottom: 20px;
 }
@@ -35,7 +34,7 @@ p {
   position: absolute;
   font-style: italic;
   transform: translateX(-50%);
-  width: 660px;
+  width: 670px;
   left: 48%;
   font-size: 2rem;
   bottom: .5em;
@@ -47,7 +46,8 @@ title {
   width: 650px;
   left: 48%;
   bottom: 4em;
-  margin-bottom: 30px;
+  margin-bottom: 38px;
+  font-size: 2em;
 }
 
 h2 {
@@ -55,4 +55,5 @@ h2 {
   color: #fff;
   background-color: rgba(0, 0, 0, .5);
   display: inline;
+  padding: 1px;
 }

@@ -15,7 +15,6 @@ body {
   position: relative;
   max-height: 500px;
   overflow: hidden;
-  width: 100%;
 }
 
 .img-flex {
@@ -27,27 +26,15 @@ body {
   position: absolute;
   padding: 0 1em;
   width: 100%;
-  bottom: 20px;
+  left: 50%;
+  bottom: 2.2rem;;
+  transform: translateX(-50%);
+  max-width: 50em;
 }
 
 p {
-  position: absolute;
   font-style: italic;
-  transform: translateX(-50%);
-  width: 670px;
-  left: 48%;
   font-size: 2rem;
-  bottom: .5em;
-}
-
-title {
-  position: absolute;
-  transform: translateX(-50%);
-  width: 650px;
-  left: 48%;
-  bottom: 4em;
-  margin-bottom: 38px;
-  font-size: 2em;
 }
 
 h2 {
